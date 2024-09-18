@@ -1,0 +1,50 @@
+{  
+  "store": {  
+    "nome": "Minha Loja Exemplar",  
+    "endereco": {  
+      "rua": "Rua das Flores",  
+      "numero": "123",  
+      "cidade": "Cidade Exemplo",  
+      "estado": "SP",  
+      "cep": "12345-678"  
+    },  
+    "produts": [  
+      {  
+        "id": 1,  
+        "nome": "Camiseta Estampada",  
+        "descricao": "Camiseta de algodão com estampa colorida.",  
+        "preco": 49.90,  
+        "categorias": ["roupas", "masculino"],  
+        "estoque": 100,  
+        "imagem": "http://exemplo.com/imagens/camiseta-estampada.jpg"  
+      },  
+      {  
+        "id": 2,  
+        "nome": "Calça Jeans",  
+        "descricao": "Calça jeans slim fit, confortável e estilosa.",  
+        "preco": 89.90,  
+        "categorias": ["roupas", "masculino"],  
+        "estoque": 50,  
+        "imagem": "http://exemplo.com/imagens/calca-jeans.jpg"  
+      },  
+      {  
+        "id": 3,  
+        "nome": "Tênis Esportivo",  
+        "descricao": "Tênis leve e confortável para prática de esportes.",  
+        "preco": 159.90,  
+        "categorias": ["calçados", "esportivo"],  
+        "estoque": 75,  
+        "imagem": "http://exemplo.com/imagens/tenis-esportivo.jpg"  
+      },  
+      {  
+        "id": 4,  
+        "nome": "Relógio Smart",  
+        "descricao": "Relógio inteligente com monitoramento de atividades.",  
+        "preco": 299.90,  
+        "categorias": ["acessórios", "tecnologia"],  
+        "estoque": 30,  
+        "imagem": "http://exemplo.com/imagens/relogio-smart.jpg"  
+      }  
+    ]  
+  }  
+}
