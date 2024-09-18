@@ -1,13 +1,5 @@
 {  
-  "store": {  
-    "nome": "Minha Loja Exemplar",  
-    "endereco": {  
-      "rua": "Rua das Flores",  
-      "numero": "123",  
-      "cidade": "Cidade Exemplo",  
-      "estado": "SP",  
-      "cep": "12345-678"  
-    },  
+  
     "produts": [  
       {  
         "id": 1,  
@@ -16,7 +8,7 @@
         "preco": 49.90,  
         "categorias": ["roupas", "masculino"],  
         "estoque": 100,  
-        "imagem": "http://exemplo.com/imagens/camiseta-estampada.jpg"  
+        "imagem": "https://cdn.pixabay.com/photo/2023/11/10/10/19/cheese-8379082_1280.jpg"  
       },  
       {  
         "id": 2,  
@@ -25,7 +17,7 @@
         "preco": 89.90,  
         "categorias": ["roupas", "masculino"],  
         "estoque": 50,  
-        "imagem": "http://exemplo.com/imagens/calca-jeans.jpg"  
+        "imagem": "https://media.istockphoto.com/id/1932581957/photo/skyline-of-city-of-london-with-corporate-office-buildings-of-at-sunset.jpg?s=2048x2048&w=is&k=20&c=_q1qYVHtSSbjaQ5LEy76KZ6wX7u6mebgbG2V-OeUPbc="  
       },  
       {  
         "id": 3,  
@@ -34,7 +26,7 @@
         "preco": 159.90,  
         "categorias": ["calçados", "esportivo"],  
         "estoque": 75,  
-        "imagem": "http://exemplo.com/imagens/tenis-esportivo.jpg"  
+        "imagem": "https://cdn.pixabay.com/photo/2018/06/15/23/27/cherries-3477927_1280.jpg"  
       },  
       {  
         "id": 4,  
@@ -43,8 +35,7 @@
         "preco": 299.90,  
         "categorias": ["acessórios", "tecnologia"],  
         "estoque": 30,  
-        "imagem": "http://exemplo.com/imagens/relogio-smart.jpg"  
+        "imagem": "https://cdn.pixabay.com/photo/2014/12/17/16/54/clean-571679_1280.jpg"  
       }  
     ]  
   }  
-}
