@@ -1,20 +1,22 @@
-import { HttpClient } from '@angular/common/http';
-import { Component, inject, OnInit } from '@angular/core';
-import { MatTableModule } from '@angular/material/table';
+import { AfterViewInit, Component, OnInit, ViewChild } from '@angular/core';
+import { MatTableDataSource, MatTableModule } from '@angular/material/table';
 import { Produto } from '../../shared/interface/products.interface';
 import { ProductsService } from '../../shared/services/products.service';
+import {MatCardModule} from '@angular/material/card';
+import { MatButtonModule } from '@angular/material/button';
+
 
 
 @Component({
   selector: 'app-list',
   standalone: true,
-  imports: [MatTableModule],
+  imports: [MatCardModule,MatButtonModule],
   templateUrl: './list.component.html',
   styleUrls: ['./list.component.scss']
 })
 export class ListComponent implements OnInit {
-  displayedColumns: string[] = ['id', 'nome', 'descricao', 'preco', 'estoque', 'imagem'];
-  products: Produto[] = [];
+products: Produto[] = [];
+
   constructor(public productsService: ProductsService) { }
 
   ngOnInit(): void {
