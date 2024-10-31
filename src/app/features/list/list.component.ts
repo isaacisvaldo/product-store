@@ -4,13 +4,14 @@ import { Produto } from '../../shared/interface/products.interface';
 import { ProductsService } from '../../shared/services/products.service';
 import {MatCardModule} from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
+import { CardComponent } from './card/card.component';
 
 
 
 @Component({
   selector: 'app-list',
   standalone: true,
-  imports: [MatCardModule,MatButtonModule],
+  imports: [CardComponent],
   templateUrl: './list.component.html',
   styleUrls: ['./list.component.scss']
 })
